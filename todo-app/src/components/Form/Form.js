@@ -4,8 +4,18 @@ import './Form.css'
 export default class Form extends Component {
     render() {
         return (
-            <div class="Form">
-                <h1>Liste de choses à faire</h1>
+            <div className="Form">
+
+                <div className="FormSearch">
+                    <label>Saisissez une tâche à faire</label>
+                    <input placeholder="Saisissez une tâche à effectuer" />
+                </div>
+                
+                <div className="Search">
+                    <div className="SearchIcon"></div>
+                </div>
+
+
             </div>
         )
     }
