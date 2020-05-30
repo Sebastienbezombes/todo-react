@@ -4,8 +4,8 @@ import './Form.css'
 export default class Form extends Component {
     render() {
         return (
-            <div>
-                <input/>
+            <div class="Form">
+                <h1>Liste de choses à faire</h1>
             </div>
         )
     }

@@ -1,15 +1,16 @@
-import React from 'react';
-import './App.css';
+import React, { Fragment } from 'react';
+import './reset.css'
 import Form from './components/Form/Form'
 import TodoList from './components/TodoList/TodoList'
 
 function App() {
   return (
-    <div className="App">
-      yolo
+    <Fragment>
+
       <Form/>
       <TodoList/>
-    </div>
+
+    </Fragment>
   );
 }
 
