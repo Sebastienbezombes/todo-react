@@ -1,12 +1,14 @@
-import React, { Component, Fragment } from 'react'
+import React, {Component} from 'react'
 import './Todo.css'
+
 
 export default class Todo extends Component {
     render() {
         return (
-            <Fragment>
+            <div class="Todo">
                 <h3>Nom de la tâche</h3> 
-            </Fragment>
+               <input class="bg-red" type="checkbox"/>
+            </div>
         )
     }
 }

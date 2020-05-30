@@ -12,7 +12,7 @@ export default class Form extends Component {
                 </div>
                 
                 <div className="Search">
-                    <div className="SearchIcon"></div>
+                    +
                 </div>
 
 

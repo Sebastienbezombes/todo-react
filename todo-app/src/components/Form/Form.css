@@ -24,13 +24,17 @@ input {
     border-radius: 6px 0 0 6px;
     border: none;
 }
-.SearchIcon {
-    height: 16px;
-    width: 16px;
-    background: url(../../assets/img/search-icon.svg);
-}
 .Search {
     margin-top: 24px;
     padding: 16px;
     background: blue;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.Search:hover {
+    background: white;
+    color: blue;
 }

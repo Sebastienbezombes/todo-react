@@ -1,3 +1,13 @@
+.Todo {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid red;
+}
+input[type="checkbox"] {
+    height: 50px;
+    width: 50px;
+    background:red;
+}
 h3 {
     line-height: 50px;
     padding-left: 24px;
@@ -7,4 +17,5 @@ h3 {
     border-radius: 6px;
     font-weight: bold;
     position: relative;
+    margin-right: 8px;
 }
