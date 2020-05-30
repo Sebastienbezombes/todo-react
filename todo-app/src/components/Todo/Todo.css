@@ -1,0 +1,12 @@
+.Todo {
+    width: 300px;
+    background: white;
+    border: 1px solid black;
+    margin-bottom: 24px;
+    border-radius: 6px;
+}
+h3 {
+    padding-left: 16px;
+    text-align: left;
+    line-height: 16px;
+}
