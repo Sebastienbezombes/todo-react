@@ -4,9 +4,31 @@
     border: 1px solid red;
 }
 input[type="checkbox"] {
-    height: 50px;
-    width: 50px;
-    background:red;
+    margin: 0;
+    height: 0px;
+    width: 0px;
+    background:transparent;
+    border: 1 solid transparent;
+    position: relative;
+}
+input[type="checkbox"]::before {
+    content: '';
+    height: 46px;
+    width: 46px;
+    background:transparent;
+    border-radius: 6px;
+    border: 2px solid black;
+    position: absolute;
+}
+input[type="checkbox"]::after {
+    content: '';
+    height: 40px;
+    width: 40px;
+    background:transparent;
+    border-radius: 6px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
 }
 h3 {
     line-height: 50px;
