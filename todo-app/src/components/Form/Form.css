@@ -1,13 +1,16 @@
 .Form {
     background: red;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 72px;
+    align-items: center;
     padding: 16px 0;
 }
 .FormSearch {
     display: flex;
     flex-direction: column;
+    
+    width: 575px;
 }
 label {
     font-size: 16px;
@@ -25,14 +28,19 @@ input {
     border: none;
 }
 .Search {
-    margin-top: 24px;
-    padding: 16px;
+    display: flex;
+    align-self: flex-end;
+    margin-top: -48px;
+    border: none;
+    width: 16px;
+    padding: 14px 32px 14px 24px;
     background: blue;
     border-radius: 0 6px 6px 0;
     cursor: pointer;
     font-weight: bold;
     font-size: 18px;
     color: white;
+    user-select: none;
 }
 .Search:hover {
     background: white;

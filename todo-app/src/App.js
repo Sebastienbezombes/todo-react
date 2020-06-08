@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import './reset.css'
 import Form from './components/Form/Form'
-import TodoList from './components/TodoList/TodoList'
 import Title from './components/Title/Title'
 
 function App() {
@@ -9,8 +8,6 @@ function App() {
     <Fragment>
       <Title/>
       <Form/>
-      <TodoList/>
-
     </Fragment>
   );
 }
