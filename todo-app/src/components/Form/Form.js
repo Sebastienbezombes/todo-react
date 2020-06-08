@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Children } from 'react'
 import './Form.css'
 
 export default class Form extends Component {
@@ -10,9 +10,11 @@ export default class Form extends Component {
 
     addTodo = () => {
         console.log("add toodoooo");
+        let input = document.querySelector('input');
         const $form = document.querySelector('.Form');
         let newContent = document.createElement('div');
-        newContent.style.cssText = "background: yellow; height: 100px; width: 100px";
+        newContent.style.cssText = "margin: 24px 0;display: flex; align-items: center; color: black; background: yellow; line-height: 64px; padding: 0 24px; border-radius: 6px";
+        newContent.textContent = input.value;
         $form.append(newContent);
     }
 
@@ -25,9 +27,6 @@ export default class Form extends Component {
                     <input id="todo" placeholder="Saisissez une tâche à effectuer" />
                     <button type="button" className="Search" onClick={this.addTodo}>+</button>
                 </div>
-                
-
-
 
             </div>
         )
