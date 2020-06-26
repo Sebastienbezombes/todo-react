@@ -1,5 +1,7 @@
+body {
+    background: blue;
+}
 .Form {
-    background: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,4 +47,32 @@ input {
 .Search:hover {
     background: white;
     color: blue;
+}
+.arrow {
+    color: red;
+    font-weight: bold;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.ok {
+    color: blue;
+    font-weight: bold;
+    margin-left: 80px;
+    cursor: pointer; 
+}
+.newContent {
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    color: #101010;
+    background: white;
+    line-height: 64px;
+    padding: 0 24px;
+    border-radius: 6px;
+}
+.TodoCheckH2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 96px;
+    color: white;
 }
